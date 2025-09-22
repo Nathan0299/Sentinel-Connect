@@ -1,5 +1,4 @@
 # Sentinel Connect
-# Sentinel Connect
 
 [![status](https://img.shields.io/badge/status-alpha-yellow)]() [![license](https://img.shields.io/badge/license-MIT-blue)]()
 
@@ -67,3 +66,19 @@ Clone the repo:
 git clone git@github.com:Nathan0299/Sentinel-Connect.git
 cd Sentinel-Connect
 
+### Backend setup (FastAPI)
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+##Frontend setup (Flutter)
+cd frontend
+flutter pub get
+flutter run -d chrome
+
+##Docker (optional)
+docker compose up --build
