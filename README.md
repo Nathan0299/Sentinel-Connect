@@ -122,8 +122,8 @@ Minimal external dependencies
 License
 MIT License. See LICENSE for details.
 Contact
-Project lead: Nathan Petrelli
-📧 Email: [add your contact email]
+Project lead: Nathaniel Lamptey
+📧 Email: [nathaniellamptey17@gmail.com]
 🌍 GitHub: @Nathan0299
 
 ---
