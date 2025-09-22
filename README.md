@@ -83,56 +83,56 @@ Security:
 ```bash
 git clone git@github.com:Nathan0299/Sentinel-Connect.git
 cd Sentinel-Connect
-
-2. ## Backend Setup (FastAPI)
+```
+## Backend Setup (FastAPI)
 cd backend                # Move into backend folder
 python -m venv venv       # Create virtual environment
 source venv/bin/activate  # Activate the environment
 pip install -r requirements.txt   # Install dependencies
 uvicorn app.main:app --reload     # Run dev server
 
-3. ##Frontend Setup (Flutter)
+## Frontend Setup (Flutter)
 cd frontend        # Move into frontend folder
 flutter pub get    # Install dependencies
 flutter run -d chrome   # Run in Chrome (or another device)
 
-4. ##Docker (Optional)
+## Docker (Optional)
 docker compose up --build
 
-##Environment Variables
+## Environment Variables
 Create a .env file in the backend directory with values like:
 DATABASE_URL=postgresql://user:password@localhost:5432/sentinel
 REDIS_URL=redis://localhost:6379/0
 SECRET_KEY=your_secret_key_here
 MQTT_BROKER_URL=localhost
 
-##Testing
+## Testing
 Backend:
 pytest
 
-##Frontend:
+## Frontend:
 flutter test
 
-##Contributing
+## Contributing
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you’d like to change.
 
-##Roadmap
+## Roadmap
  End-to-end encryption audit
  Mobile app packaging
  Kubernetes deployment templates
  Scaling tests (Redis/Postgres clusters)
 
-##Security & Privacy
+## Security & Privacy
 Zero-trust design principles
 Tamper-evident logs for auditability
 Strong role-based access controls
 Minimal external dependencies
 
-##License
+## License
 MIT License. See LICENSE for details.
 
-##Contact
+## Contact
 Project lead: Nathaniel Lamptey
 📧 Email: [nathaniellamptey17@gmail.com]
 🌍 GitHub: @Nathan0299
