@@ -60,5 +60,10 @@ Security: E2E encryption primitives for messages + immutable audit logs.
 > Assumes `python3.11`, `docker`, and `flutter` are installed and SSH to GitHub is set up.
 
 ```bash
+## Quickstart (dev)
 
+Clone the repo:
+```bash
+git clone git@github.com:Nathan0299/Sentinel-Connect.git
+cd Sentinel-Connect
 
